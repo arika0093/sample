@@ -9,7 +9,7 @@ services:
       - "3000:80"
     volumes:
       - .:/app/sample:cached
-      - node_modules:/app/test/node_modules
+      - node_modules:/app/sample/node_modules
 
 volumes:
   node_modules:
