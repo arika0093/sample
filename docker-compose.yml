@@ -4,7 +4,7 @@ services:
   sample:
     build:
       context: .
-      dockerfile: ./dockerfile
+      dockerfile: ./Dockerfile
     ports:
       - "3000:80"
     volumes:
