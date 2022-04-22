@@ -7,8 +7,8 @@ WORKDIR /app/sample
 # 	rm -rf /var/lib/apt/lists/*
 
 # install dependencies
-# COPY package.json ./
-# RUN npm install
+COPY package.json ./
+RUN npm install
 
 # copy source code
 COPY . .
