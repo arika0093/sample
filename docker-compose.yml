@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  sample:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    ports:
+      - "3000:80"
+    volumes:
+      - .:/app/sample:cached
+      - node_modules:/app/test/node_modules
+
+volumes:
+  node_modules:
