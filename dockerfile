@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR /app/sample
+WORKDIR /app_sample
 
 # install packages
 # RUN apt update && \

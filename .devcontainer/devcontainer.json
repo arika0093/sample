@@ -2,6 +2,6 @@
 	"name": "sample-app",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "sample",
-    "workspaceFolder": "/app/sample",
+    "workspaceFolder": "/app_sample",
     "shutdownAction": "stopCompose"
 }
